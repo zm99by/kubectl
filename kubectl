@@ -1,3 +1,6 @@
 kubectl exec -it [name] bash -n jenkins
 kubectl logs [name] -n jenkins
 kubectl replace --force -f jenkins-deployment.yml -n jenkins
+Plugins: Green Balls, ChuckNorris, 	
+Multiple SCMs plugin, Email Extension Plugin, 	
+Role-based Authorization Strategy)
