@@ -1,6 +1,7 @@
 # kubectl
 Changing default namespace
 kubectl config set-context --current --namespace=NAMESPACE_NAME
+kubectl config set-context --current --namespace=orange
 ================================================================
 # Pods
 
