@@ -16,6 +16,7 @@ single-pod             1/1     Running   0          3s
 
 Generating Manifest:
 # kubectl run single-pod --image busybox --dry-run=client -o yaml -- sleep infinity
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -33,7 +34,7 @@ spec:
     resources: {​}​
   dnsPolicy: ClusterFirst
   restartPolicy: Always
-status: {​}​
+```
 ================================================================
 
 #Deployments
